@@ -5,9 +5,12 @@ import express from 'express'
 import morgan from 'morgan'
 import productRoutes from './routes/productRoutes.js'
 import userRoutes from './routes/userRoutes.js'
+import { connectDB } from './config/db.js'
 
 const PORT = process.env.PORT || 5000
 const app = express()
+
+connectDB()
 
 app.use(morgan('combined'))
 
