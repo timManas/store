@@ -8,7 +8,7 @@ const products = [
     category: 'Electronics',
     price: 89.99,
     url: 'https://www.apple.com',
-    category: 'gear',
+    countInStock: 5,
   },
   {
     name: 'iPhone 13 Pro 256GB Memory',
@@ -19,7 +19,7 @@ const products = [
     category: 'Electronics',
     price: 599.99,
     url: 'https://www.apple.com',
-    category: 'custom',
+    countInStock: 2,
   },
   {
     name: 'Cannon EOS 80D DSLR Camera',
@@ -30,7 +30,7 @@ const products = [
     category: 'Electronics',
     price: 929.99,
     url: 'https://www.cannon.com',
-    category: 'gear',
+    countInStock: 3,
   },
   {
     name: 'Sony Playstation 5',
@@ -41,7 +41,7 @@ const products = [
     category: 'Electronics',
     price: 399.99,
     url: 'https://www.sony.com',
-    category: 'tools',
+    countInStock: 1,
   },
   {
     name: 'Logitech G-Series Gaming Mouse',
@@ -52,7 +52,7 @@ const products = [
     category: 'Electronics',
     price: 49.99,
     url: 'https://www.Logitech.com',
-    category: 'gear',
+    countInStock: 0,
   },
   {
     name: 'Amazon Echo Dot 3rd Generation',
@@ -63,7 +63,7 @@ const products = [
     category: 'Electronics',
     price: 29.99,
     url: 'https://www.amazon.com',
-    category: 'custom',
+    countInStock: 2,
   },
 ]
 
