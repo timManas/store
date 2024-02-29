@@ -12,6 +12,7 @@ const app = express()
 
 connectDB()
 
+app.use(express.json())
 app.use(morgan('combined'))
 
 app.use('/api/product', productRoutes)

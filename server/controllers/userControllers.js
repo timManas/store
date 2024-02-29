@@ -1,6 +1,7 @@
 import mongoose from 'mongoose'
 
 const createUserAccount = (req, res) => {
+  console.log(req.body)
   res.send('Create User')
 }
 
